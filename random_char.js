@@ -1,5 +1,5 @@
 var invalid_id = ["72", "73", "74", "75", "33", "34", "35"];
-var invisible_id = ["72", "73", "74", "75"]
+var invisible_id = ["76", "77", "78", "79", "80", "81"]
 var proceed = true;
 var characters;
 
@@ -59,7 +59,7 @@ function checkInputs(){
   var echo_fighters = document.getElementById("echo_fighters")
   var pokemon_trainer = document.getElementById("pokemon_trainer")
 
-  invalid_id = ["72", "73", "74", "75"]
+  invalid_id = invisible_id
 
   if (!echo_fighters.checked){
     var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]

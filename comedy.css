@@ -1,0 +1,20 @@
+#comedy {
+	margin: 0px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#comedy * {
+	font-family: "Georgia", serif;
+	color: rgb(70,70,70);
+}
+
+#comedy p {
+	font-size: 24px;
+}
+
+#comedy button {
+	background-color: rgb(105, 255, 102);
+	font-size: 36px;
+	padding: 10px;
+}

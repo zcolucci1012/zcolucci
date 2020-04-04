@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Comedy Idea Generator</title>
+	<link rel="stylesheet" href="comedy.css">
+	<link rel="stylesheet" href="toolbar.css">
+	<script src="comedy.js" type="text/javascript"></script>
+</head>
+
+<body onload="generate()">
+	<div id="toolbar">
+		<button href="index.html" class="topic" style="font-size: 36px; padding: 10px">ZCOLUCCI</button>
+		<div class="dropdown">
+  			<button href="index.html" class="topic">Goodies!</button>
+  			<div class="dropdown_content">
+    			<a href="random_char.html">Random Smash Character</a>
+    			<a href="comedy.html">Comedy Generator</a>
+  			</div>
+		</div>
+	</div>
+	<div id="comedy" style="position: relative; top: 200px">
+		<button id="multiple" onclick="toggleMultiple()">Two Topics</button>
+		<button onclick="generate()">Generate</button>
+		<p>Make a(n) <h1 id="medium">Medium</h1><p> about </p><h1 id="topic">Topic</h1></p>
+		<p id="topic2p">and <h1 id="topic2">Topic2</h1></p>
+	</div>
+	
+</body>
+
+</html>

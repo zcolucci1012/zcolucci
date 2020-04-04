@@ -1,0 +1,94 @@
+* {
+  font-family: "Lucida Sans", "Open Sans", sans-serif;
+}
+
+.centered {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.centered * {
+  position: relative;
+}
+
+#character {
+  margin: 0 auto;
+  background-color: white;
+  border: red solid 3px;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+#character * {
+  display: inline-block;
+}
+
+#picture{
+  width: 165px;
+  height: 165px;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#settings {
+  width: 75%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+#settings>*{
+  text-align: center;
+  background-color: pink;
+  border: red solid 3px;
+  border-bottom: 0px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.centered button {
+  margin: 2px 0px 2px 0px;
+  background-color: pink;
+  border: red solid 3px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+}
+
+.option {
+  text-align: right;
+}
+
+.option *{
+  display: inline-block;
+  font-size: 14px;
+}
+
+.option label {
+  position: relative;
+  left: -52%;
+}
+
+.option input {
+  position: absolute;
+  left: 50%;
+}
+
+.dropdown_content *{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+#advanced_settings_div {
+  display: none;
+}
+
+#presets_div {
+  display: inline-block;
+}

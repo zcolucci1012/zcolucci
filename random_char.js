@@ -59,7 +59,7 @@ function checkInputs(){
   var echo_fighters = document.getElementById("echo_fighters")
   var pokemon_trainer = document.getElementById("pokemon_trainer")
 
-  invalid_id = invisible_id
+  invalid_id = ["76", "77", "78", "79", "80", "81"]
 
   if (!echo_fighters.checked){
     var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]

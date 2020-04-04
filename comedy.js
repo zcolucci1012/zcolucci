@@ -1,7 +1,7 @@
 var media = [
 	"monologue",
 	"dialogue",
-	"misdirection",
+	"subversion of expectations",
 	"character",
 	"meme",
 	"song",
@@ -14,18 +14,19 @@ var media = [
 	"edgy joke",
 	"absurd joke",
 	"one-liner",
-	"slapstick",
+	"slapstick joke",
 	"self-deprecating joke",
-	"list",
+	"list joke",
 	"analogy",
 	"dirty joke",
-	"personal experience",
+	"personal story",
 	"roast",
 	"parody",
 	"light bulb joke",
 	"observation",
 	"dad joke",
 	"yo mama joke",
+	"tweet"
 ]
 
 var topics = [	
@@ -42,7 +43,7 @@ var topics = [
 	"science",
 	"music",
 	"books",
-	"crimes",
+	"crime",
 	"friends",
 	"space",
 	"work",
@@ -66,9 +67,11 @@ var topics = [
 	"human body",
 	"celebrities",
 	"culture",
-	"future",
+	"the future",
 	"disease",
 	"social media",
+	"art",
+	""
 ]
 
 var multiple = false;

@@ -26,7 +26,11 @@ var media = [
 	"observation",
 	"dad joke",
 	"yo mama joke",
-	"tweet"
+	"tweet",
+	"rap",
+	"poem",
+	"meta joke",
+	"a \"what do you call a ___\" joke"
 ]
 
 var topics = [	
@@ -64,14 +68,24 @@ var topics = [
 	"disabilities",
 	"food",
 	"animals",
-	"human body",
+	"the human body",
 	"celebrities",
 	"culture",
 	"the future",
 	"disease",
 	"social media",
 	"art",
-	""
+	"theater",
+	"dating",
+	"porn",
+	"children",
+	"old people",
+	"drinking",
+	"parents",
+	"trends",
+	"toys",
+	"corporations",
+	"governments"
 ]
 
 var multiple = false;

@@ -1,4 +1,4 @@
-var invalid_id = ["72", "73", "74", "75", "33", "34", "35"];
+var invalid_id = ["76", "77", "78", "79", "80", "81", "33", "34", "35"];
 var invisible_id = ["76", "77", "78", "79", "80", "81"]
 var proceed = true;
 var characters;

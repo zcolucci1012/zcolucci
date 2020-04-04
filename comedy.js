@@ -30,7 +30,8 @@ var media = [
 	"rap",
 	"poem",
 	"meta joke",
-	"a \"what do you call a ___\" joke"
+	"\"what do you call a ___\" joke",
+	"anti-joke"
 ]
 
 var topics = [	

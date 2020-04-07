@@ -29,7 +29,6 @@ var media = [
 	"tweet",
 	"rap",
 	"poem",
-	"meta joke",
 	"\"what do you call a ___\" joke",
 	"anti-joke"
 ]
